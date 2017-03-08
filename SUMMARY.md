@@ -21,4 +21,20 @@
   * Financial 金融函数
   * Functional 函数式编程
   * [Numpy specific 帮助函数](routines/numpy-specific.md)
+  * indexing 索引操作
+  * Input and output 输入和输出
+  * Linear algebra 线性代数
+  * logic 逻辑处理
+  * Masked array 蒙面数组
+  * math 数学
+  * Matrix library 矩阵库
+  * Miscellaneous 其它函数
+  * Padding 填充函数
+  * polynomials 多项式
+  * Random 随机采样
+  * Set 集合
+  * [sorting searching counting 排序搜索计数](routines/sorting-searching-counting.md)
+  * statistics 统计学
+  * Test Support 测试支持
+  * [Window 频谱窗函数](routines/window.md)
 
