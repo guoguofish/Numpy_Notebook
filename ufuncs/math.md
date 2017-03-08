@@ -1,3 +1,9 @@
+add\(x, y \[, out\]\)         返回 $$x_i + y_i$$
+
+subtract\(x, y \[, out\]\)         返回 $$x_i - y_i$$
+
+multiply\(x, y \[, out\]\)         返回 $$x_i * y_i$$
+
 divide\(x, y \[, out\]\)         返回 $$x_i \div y_i$$
 
 logaddexp\(x, y \[, out\]\)      求 $$ln(e^{x_i}+e^{y_i})$$
