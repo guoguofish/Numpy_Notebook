@@ -1,30 +1,30 @@
-isfinite\(\)
+isfinite\( x  \[, out\] \)
 
-isinf\(\)
+isinf\( x  \[, out\] \)
 
-isnan\(\)
+isnan\( x  \[, out\] \)
 
-fabs\(\)
+fabs\( x  \[, out\] \)
 
-signbit\(\)
+signbit\( x  \[, out\] \)
 
-copysign\(\)
+copysign\( x, y \[,out\] \)
 
-nextafter\(\)
+nextafter\( x, y \[,out\] \)
 
-spacing\(\)
+spacing\( x  \[, out\] \)
 
-modf\(\)
+modf\( x  \[, out1, out2\] \)
 
-ldexp\(\)
+ldexp\( x, y \[,out\] \)
 
-frexp\(\)
+frexp\( x \[, out1, out2\] \)
 
-fmod\(\)
+fmod\( x, y \[,out\] \)
 
-floot\(\)
+floot\( x  \[, out\] \)
 
-ceil\(\)
+ceil\( x  \[, out\] \)
 
-trunc\(\)
+trunc\( x  \[, out\] \)
 
