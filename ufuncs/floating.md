@@ -1,4 +1,4 @@
-isfinite
+isfinite\(\)
 
 isinf\(\)
 
