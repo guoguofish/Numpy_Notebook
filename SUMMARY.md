@@ -7,7 +7,7 @@
 * [ufuncs](ufuncs.md)
   * [math算数](ufuncs/math.md)
   * [Trigonometric 三角函数](ufuncs/trigonometric.md)
-  * Bit-twiddling 位变换函数
+  * [Bit-twiddling 位变换函数](ufuncs/bit-twiddling.md)
   * Comparison 比较函数
   * Floating 浮点数函数
 
