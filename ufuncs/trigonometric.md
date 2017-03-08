@@ -1,34 +1,32 @@
+sin\(x\[, out\]\)    计算 sin\(x\)
 
+cos\(x\[, out\]\)    计算 cos\(x\)
 
-sin\(x\[, out\]\)	计算 sin\(x\)
+tan\(x\[, out\]\)    计算 tan\(x\)
 
-cos\(x\[, out\]\)	计算 cos\(x\)
+arcsin\(x\[, out\]\)    计算反正弦
 
-tan\(x\[, out\]\)	计算 tan\(x\)
+arccos\(x\[, out\]\)    计算反余弦
 
-arcsin\(x\[, out\]\)	计算反正弦
+arctan\(x\[, out\]\)    计算反正切
 
-arccos\(x\[, out\]\)	计算反余弦
+arctan2\(y, x \[, out\]\)    根据两条直角边x,y ,由 y/x 计算得出y的对角的弧度
 
-arctan\(x\[, out\]\)	计算反正切
+hypot\(x1, x2\[, out\]\)    给两个直角边长度，计算出斜边长度
 
-arctan2\(x1, x2\[, out\]\)	Element-wise arc tangent of x1/x2 choosing the quadrant correctly.
+sinh\(x\[, out\]\)     双曲正弦
 
-hypot\(x1, x2\[, out\]\)	给两个直角边长度，计算出斜边长度
+cosh\(x\[, out\]\)    双曲余弦
 
-sinh\(x\[, out\]\)	 双曲正弦
+tanh\(x\[, out\]\)       双曲正切.
 
-cosh\(x\[, out\]\)	双曲余弦
+arcsinh\(x\[, out\]\)    反双曲正弦
 
-tanh\(x\[, out\]\)   	双曲正切.
+arccosh\(x\[, out\]\)    反双曲余弦
 
-arcsinh\(x\[, out\]\)	反双曲正弦
+arctanh\(x\[, out\]\)    反双曲正切
 
-arccosh\(x\[, out\]\)	反双曲余弦
+deg2rad\(x\[, out\]\)    角度转弧度
 
-arctanh\(x\[, out\]\)	反双曲正切
-
-deg2rad\(x\[, out\]\)	角度转弧度
-
-rad2deg\(x\[, out\]\)	弧度转角度
+rad2deg\(x\[, out\]\)    弧度转角度
 
