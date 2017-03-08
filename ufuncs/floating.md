@@ -1,8 +1,8 @@
-isfinite\( x  \[, out\] \)
+isfinite\( x  \[, out\] \) 判断是不是NaN 和无穷大数据
 
-isinf\( x  \[, out\] \)
+isinf\( x  \[, out\] \)     判断是不是无穷大数据
 
-isnan\( x  \[, out\] \)
+isnan\( x  \[, out\] \)   判断是不是NaN
 
 signbit\( x  \[, out\] \)
 
