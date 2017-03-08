@@ -4,7 +4,7 @@ isinf\( x  \[, out\] \)     判断是不是无穷大数据
 
 isnan\( x  \[, out\] \)   判断是不是NaN
 
-signbit\( x  \[, out\] \)
+signbit\( x  \[, out\] \) 判断符号位
 
 copysign\( x, y \[,out\] \)
 
