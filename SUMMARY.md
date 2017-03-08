@@ -9,5 +9,5 @@
   * [Trigonometric 三角函数](ufuncs/trigonometric.md)
   * [Bit-twiddling 位变换函数](ufuncs/bit-twiddling.md)
   * [Comparison 比较函数](ufuncs/comparison.md)
-  * Floating 浮点数函数
+  * [Floating 浮点数函数](ufuncs/floating.md)
 
