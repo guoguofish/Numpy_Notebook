@@ -4,8 +4,6 @@ isinf\( x  \[, out\] \)
 
 isnan\( x  \[, out\] \)
 
-fabs\( x  \[, out\] \) 求绝对值
-
 signbit\( x  \[, out\] \)
 
 copysign\( x, y \[,out\] \)
