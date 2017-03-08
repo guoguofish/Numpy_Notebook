@@ -10,4 +10,5 @@
   * [Bit-twiddling 位变换函数](ufuncs/bit-twiddling.md)
   * [Comparison 比较函数](ufuncs/comparison.md)
   * [其它函数](ufuncs/floating.md)
+* [Routines 千里之行](routines.md)
 
