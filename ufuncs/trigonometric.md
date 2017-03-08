@@ -12,7 +12,7 @@ arctan\(x\[, out\]\)    计算反正切
 
 arctan2\(y, x \[, out\]\)    根据两条直角边x,y ,由 y/x 计算得出y的对角的弧度
 
-hypot\(x1, x2\[, out\]\)    给两个直角边长度，计算出斜边长度
+hypot\(x, y \[, out\]\)    给两个直角边长度x, y，计算出斜边长度 $$\sqrt{x^2+y^2}$$
 
 sinh\(x\[, out\]\)     双曲正弦
 
