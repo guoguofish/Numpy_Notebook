@@ -16,5 +16,5 @@
 
 **坚持, 完成！**
 
-&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;&lt;img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;本作品采用&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。
+![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png) 本作品采用[知识共享署名-非商业性使用-相同方式共享](http://creativecommons.org/licenses/by-nc-sa/4.0/) 4.0 国际许可协议进行许可。
 
