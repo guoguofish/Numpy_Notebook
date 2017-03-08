@@ -18,9 +18,7 @@ ldexp\( x, y \[,out\] \) 计算 $${x_i} * 2^{y_i}$$
 
 frexp\( x \[, out1, out2\] \) 将x的元素分解为尾数和二进制指数。返回 \(尾数，二进制指数\) 。符合 $$x = out1*2^{out2}$$
 
-可见ldexp函数和frexp函数互为逆运算。
-
-
+可见 ldexp 函数和 frexp 函数互为逆运算。
 
 floot\( x  \[, out\] \) 返回左整数
 
