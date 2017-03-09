@@ -46,7 +46,7 @@ fromstring\( `string`, dtype, count, sep \)   把python的字符串转换成1D�
 
 loadtxt\( `fname`, dtype, comments,  delimiter, ... \)   从硬盘的 txt 文件载入数据，可自动识别gzip文件
 
-savetxt\(` fname, X`, fmt='%.18e', delimiter='', newline='\n', header='', footer='', comments='\#'\) 将数据X保存到外部文件中去，如果fname以“.gz”结尾，文件将自动保存为压缩的gzip文件。
+savetxt\(`fname, X`, fmt='%.18e', delimiter='', newline='\n', header='', footer='', comments='\#'\) 将数据X保存到外部文件中去，如果fname以“.gz”结尾，文件将自动保存为压缩的gzip文件。
 
 #### load 函数 和 save, savez, savez\_compressed函数配合，支持pickle
 
@@ -57,4 +57,21 @@ save\( `file, arr`,   allowpickle=True, fix\_imports=True\) 将一块数据 arr 
 savez\( `file, *args`, \*\*kwds\)  将多个数据块保存到硬盘单一文件 xxx.npz里，不压缩。
 
 savez\_compressed\( `file, *args`, \*\*kwds \)  压缩版 savez\( \)
+
+## 创建 record arrays \(numpy.rec是numpy.core.records的别名\)
+
+大多数情况下，一块ndarray里的每个元素都是一个标量数，但是它也可以是一个组和后的数据，我们把这样的ndarray数据叫作 结构化的ndarray数据。
+
+下面这段代码的a数组里两个元素，每个元素由两个数据构成，我们称它为field，分别是x和y，对应的数据类型分别是int和float。
+
+```
+>>> import numpy as np
+>>> a = np.array([(1,2.0), (1,2.0)], dtype=[('x',int),('y', float)])
+>>> type(a)     # 返回 <class 'numpy.ndarray'>
+>>> type(a[0])  # 这里竟然返回的是 <class 'numpy.void'>
+>>> a['x']
+>>> a['y']
+```
+
+
 
