@@ -1,10 +1,10 @@
-这里np代表numpy模块，ndarray代表数据块。
+## （这里np代表numpy模块，ndarray代表数据块）
 
 np.copyto\(`dst, src`, casting, where\) 数据块间拷贝。
 
 ### 改变数据块的形状
 
-np.reshape\( `a, newshape`, order\) 
+np.reshape\( `a, newshape`, order\)
 
 np.ravel\( `a`, order\) 返回内存连续版
 
