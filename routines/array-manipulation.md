@@ -60,11 +60,11 @@ asscalar\(a\)
 
 require\( a, dtype, requirements \)
 
-### 结合数据块
+### 结合数据块 Joining Arrays
 
-### 拆分数据块
+### 拆分数据块 Splitting Arrays
 
-### Tiling Arrays 把小块数据铺成大块数据，像铺砖瓦一样
+### 把小块数据铺成大块数据，像铺砖瓦一样 Tiling Arrays 
 
 ### 添加和删除元素
 
