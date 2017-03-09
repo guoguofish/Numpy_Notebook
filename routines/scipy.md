@@ -28,21 +28,19 @@ np.linalg.svd\(a, full\_matrics, compute\_uv\) 奇异值分解
 
 ### FFT 快速傅立叶变换
 
-fft\(a\) 计算1D离散傅立叶变换
+np.fft.fft\(a\) 计算1D离散傅立叶变换
 
-fft2\(a\)计算2D离散傅立叶变换
+np.fft.fft2\(a\)计算2D离散傅立叶变换
 
-fftn\(a\)计算nD离散傅立叶变换
+np.fft.fftn\(a\)计算nD离散傅立叶变换
 
-ifft\(a\)计算1D离散傅立叶反变换
+np.fft.ifft\(a\)计算1D离散傅立叶反变换
 
-ifft2\(a\)计算2D离散傅立叶反变换
+np.fft.ifft2\(a\)计算2D离散傅立叶反变换
 
-ifftn\(a\)计算nD离散傅立叶反变换
+np.fft.ifftn\(a\)计算nD离散傅立叶反变换
 
 ### 其它
 
-i0\( x \) 
-
-
+np.i0\( x \)
 
