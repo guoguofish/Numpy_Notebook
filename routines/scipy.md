@@ -20,7 +20,7 @@ numpy.linalg.lstsq\( a, b, rcond=-1\) 线性矩阵方程的最小二乘解
 
 np.linalg.norm\(x, ord, axis, keepdims\)
 
-np.linalg.pinv\(a, rcond\)
+np.linalg.pinv\(a, rcond\) 计算 Moore-Penrose 伪逆矩阵
 
 np.linalg.solve\(a, b\) 解线性方程 ax=b 的x
 
