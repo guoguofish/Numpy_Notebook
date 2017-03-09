@@ -28,5 +28,7 @@ asarray\( `a`,  dtype, order \)
 
 asanyarray\( `a`, dtype, order \) 把ndarray的派生类数据块，转换成ndarray数据块。
 
-ascontiguousarray\(a, dtype \) 让一块ndarray的数据在内存中紧凑起来。
+ascontiguousarray\( `a`, dtype \) 让一块ndarray的数据在内存中紧凑起来。
+
+asmatrix\( `data`,  dtype\)
 
