@@ -117,9 +117,25 @@ logspace\( `start, stop`, num, endpoint, base, ...\)
 
 geomspace\( `start, stop`, num, endpoint, dtype \)
 
-meshgrid\( \*xi, \*\*kwargs \)
+meshgrid\( \*xi, \*\*kwargs \) 从坐标向量返回坐标矩阵
 
 mgrid           是 nd\_grid 实例，返回一个稠密的多维度meshgrid
 
 ogrid            是 nd\_grid 实例，返回一个稀疏的多维度meshgrid
+
+### 构建矩阵
+
+diag\( `v`, k \) 提取对角线或者构造一个对角线矩阵
+
+diagflat\( `v`, k \) 输入1D的数据串，转换成2D的对角线矩阵
+
+tri\( `N`, M, k, dtype\)
+
+tril\( `m`, k \)
+
+triu\( `m`, k \)
+
+vander\( `x`, N, increasing\)
+
+
 
