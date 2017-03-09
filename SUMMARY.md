@@ -23,10 +23,10 @@
   * [Numpy specific 帮助函数](routines/numpy-specific.md)
   * indexing 索引操作
   * Input and output 输入和输出
-  * Linear algebra 线性代数
+  * [Linear algebra 线性代数](routines/linear-algebra.md)
   * logic 逻辑处理
   * Masked array 蒙面数组
-  * math 数学
+  * [math 数学](routines/math.md)
   * Matrix library 矩阵库
   * Miscellaneous 其它函数
   * Padding 填充函数
