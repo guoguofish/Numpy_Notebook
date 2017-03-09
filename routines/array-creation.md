@@ -84,9 +84,9 @@ savez\_compressed\( `file, *args`, \*\*kwds \)  压缩版 savez\( \)
 
 我们可以看到 ar.x 其实就是 a\['x'\] 的简写版。
 
-np.rec.array\( `obj`,  dtype, shape, ... \)  把各种obj转换成一个 record 数据块。
+np.rec.array\( `obj`,  dtype, shape, ... \)           把各种obj转换成一个 record 数据块。
 
 np.rec.fromarrays\( `arrayList`,  dtype, ... \) 把python列表里的每个 array 合并成一个 record 数据块。
 
-np.rec.fromrecords\( recList, dtype, ...\)  把python列表里的每个 reccord 合并成一个大 record 数据块。
+np.rec.fromrecords\( recList, dtype, ...\)          把python列表里的每个 reccord 合并成一个大 record 数据块。
 
