@@ -102,3 +102,10 @@ np.char.array\( obj, itemsize, ... \)     创建一个 chararray。
 
 np.char.asarray\( obj, itemsize, ... \) 把输入转换成一个 chararray, 如果有必要会copy数据。
 
+```
+>>> a = np.char.array(['a','ab','abc'])
+>>> type(a) # 返回<class 'numpy.core.defchararray.chararray'>
+```
+
+
+
