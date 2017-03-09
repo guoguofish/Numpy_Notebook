@@ -90,3 +90,7 @@ np.rec.fromarrays\( `arrayList`,  dtype, ... \) 把python列表里的每个 arra
 
 np.rec.fromrecords\( recList, dtype, ...\)          把python列表里的每个 reccord 合并成一个大 record 数据块。
 
+np.rec.fromstring\( `datastring`,  dtype \)    由字符串创建一个只读的record数组
+
+np.rec.fromfile\( fd, dtype, shape, ... \)            由外部文件数据创建record数组
+
