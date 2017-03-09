@@ -10,6 +10,8 @@ result\_type\(\*arrays\_and\_dtypes\)
 
 common\_type\(\*arrays\)
 
+obj2sctype\(rep\[, default\]\)
+
 ## 创建 data types
 
 ## Data type 信息
