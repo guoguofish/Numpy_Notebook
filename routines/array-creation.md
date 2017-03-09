@@ -30,5 +30,5 @@ asanyarray\( `a`, dtype, order \) 把ndarray的派生类数据块，转换成nda
 
 ascontiguousarray\( `a`, dtype \) 让一块ndarray的数据在内存中紧凑起来。
 
-asmatrix\( `data`,  dtype\)
+asmatrix\( `data`,  dtype\) 将data转换成 matrix 矩阵类型
 
