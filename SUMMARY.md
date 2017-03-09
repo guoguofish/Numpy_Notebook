@@ -13,9 +13,9 @@
 * [Routines 千里之行](routines.md)
   * [Array Creation 创建数据块](routines/array-creation.md)
   * [Array 处理](routines/array-manipulation.md)
+  * [Data Type 处理](routines/data-type.md)
   * [Binary 二进制](routines/binary.md)
   * [string 字符串](routines/string.md)
-  * Data Type 处理
   * [Scipy 加速版接口](routines/scipy.md)
   * Discrete fft 离散傅立叶变换
   * Financial 金融函数
