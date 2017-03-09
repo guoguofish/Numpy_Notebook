@@ -24,3 +24,21 @@ ndarray.T
 
 transpose\( a, axes \)
 
+### 改变维度
+
+np.atleast\_1d\( \*arys \)
+
+np.atleast\_2d\( \*arys \)
+
+np.atleast\_3d\( \*arys \)
+
+np.broadcast
+
+np.broadcast\_to\( `array, shape`, subok\)
+
+np.broadcast\_arrays\(\*args, \*\*kwargs\)
+
+expand\_dims\(a, axis\)
+
+squeeze\( a, axis\)
+
