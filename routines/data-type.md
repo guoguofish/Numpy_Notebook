@@ -16,9 +16,15 @@ obj2sctype\( `rep`,   default \)
 
 dtype 类
 
-format\_parser\(formats, names, titles\[, ...\]\)
+format\_parser\(formats, names, titles\[, ...\]\)
 
 ## Data type 信息
+
+finfo
+
+iinfo\( type \)
+
+MachAr\( \[float\_conv, int\_conv, ...\] \)
 
 ## Data type 测试
 
