@@ -10,6 +10,22 @@ np.linalg.eig\( a \)  计算一个方阵的特征值及特征向量
 
 np.linalg.eigh\( a, UPLO='L' \)  返回 Hermitian 或 symmetric 矩阵的特征值和特征向量
 
+np.linalg.eigvals\( a \) 计算矩阵的特征值
+
+np.linalg.eigvalsh\( a \) 计算Hermitian 或 symmetric矩阵的特征值
+
+np.linalg.inv\(a\) 计算逆矩阵
+
+numpy.linalg.lstsq\( a, b, rcond=-1\) 线性矩阵方程的最小二乘解
+
+np.linalg.norm\(x, ord, axis, keepdims\)
+
+np.linalg.pinv\(a, rcond\)
+
+np.linalg.solve\(a, b\) 解线性方程 ax=b 的x
+
+np.linalg.svd\(a, full\_matrics, compute\_uv\) 奇异值分解
+
 ### FFT 快速傅立叶变换
 
 ### 其它
