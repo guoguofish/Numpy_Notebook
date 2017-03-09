@@ -40,5 +40,9 @@ find\_common\_type\(array\_types, scalar\_types\)
 
 ## Miscellaneous 其它
 
+typename\(char\)
 
+sctype2char\(sctype\)
+
+mintypecode\(typechars\[, typeset, default\]\)
 
