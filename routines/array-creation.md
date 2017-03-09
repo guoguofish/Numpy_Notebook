@@ -26,3 +26,5 @@ array\( `object`, dtype, copy, order, subok, ndmin \)  把python的一个object�
 
 asarray\( `a`,  dtype, order \)
 
+asanyarray\( `a`, dtype, order\) 把ndarray的派生类数据块，转换成ndarray数据块。
+
