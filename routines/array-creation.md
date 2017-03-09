@@ -88,5 +88,5 @@ np.rec.array\( `obj`,  dtype, shape, ... \) 把各种obj转换成一个 record �
 
 np.rec.fromarrays\( `arrayList`,  dtype, ... \) 把python列表里的每个 array 合并成一个 record 数据块。
 
-np.rec.fromrecords\( recList, dtype, ...\) 把ython列表里的每个 reccord 合并成一个大 record 数据块。
+np.rec.fromrecords\( recList, dtype, ...\) 把python列表里的每个 reccord 合并成一个大 record 数据块。
 
