@@ -22,5 +22,7 @@ fulllike\( `a, fill_value`,  dtype, order, subok \) 全 fill-value 的数据块
 
 ### 由外部数据转换而来
 
-array\( `object`, dtype, copy, order, subok, ndmin \)  把python的一个object（通常是列表），转变成一个ndarray数据块。
+array\( `object`, dtype, copy, order, subok, ndmin \)  把python的一个object（通常是列表），转变成一个ndarray数据块。
+
+asarray\( `a`,  dtype, order \)
 
