@@ -96,7 +96,9 @@ np.rec.fromfile\( fd, dtype, shape, ... \)            由外部文件数据创�
 
 ## 创建 character arrays \(numpy.char是numpy.core.defchararray的别名\)
 
-这种
+这种数组提供一个文字型数组的视窗
 
+np.char.array\( obj, itemsize, ... \) 创建一个 chararray.
 
+np.char.asarray\( obj, itemsize, ... \) 把输入转换成一个 chararray, 如果有必要会copy数据。
 
