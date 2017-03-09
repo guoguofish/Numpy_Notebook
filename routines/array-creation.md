@@ -96,5 +96,7 @@ np.rec.fromfile\( fd, dtype, shape, ... \)            由外部文件数据创�
 
 ## 创建 character arrays \(numpy.char是numpy.core.defchararray的别名\)
 
+这种
+
 
 
