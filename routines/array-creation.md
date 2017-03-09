@@ -38,7 +38,7 @@ fromfile\( `file`, dtype, count, sep\)
 
 fromfunction\( `function`, shape, \*\*kwargs \)
 
-fromiter\(` iterable, dtype`,    count\)
+fromiter\(`iterable, dtype`,    count\)   把python的可迭代对象转换成1D的数据
 
 fromstring\( `string`, dtype, count, sep \)   把python的字符串转换成1D的数据
 
