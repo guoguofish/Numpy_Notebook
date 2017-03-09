@@ -111,7 +111,7 @@ np.char.asarray\( obj, itemsize, ... \) 把输入转换成一个 chararray, 如�
 
 arange\( start, `stop`, step,  dtype\)
 
-linspace\(` start, stop`,  num,  endpoint, ...\)
+linspace\(`start, stop`,  num,  endpoint, ...\)
 
 logspace\( `start, stop`, num, endpoint, base, ...\)
 
@@ -119,7 +119,7 @@ geomspace\( `start, stop`, num, endpoint, dtype \)
 
 meshgrid\( \*xi, \*\*kwargs \)
 
-mgrid           是 nd\_grid 实例，返回一个密集的多维度meshgrid
+mgrid           是 nd\_grid 实例，返回一个稠密的多维度meshgrid
 
-ogrid            是 nd\_grid 实例，返回一个开放的的多维度meshgrid
+ogrid            是 nd\_grid 实例，返回一个稀疏的多维度meshgrid
 
