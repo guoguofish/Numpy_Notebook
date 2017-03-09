@@ -23,25 +23,18 @@ frombuffer\( `buffer`, dtype, count, offset \)
 ##### fromfile\( `file`, dtype, count, sep\)  和 ndarray.tofile\(file\) 配合使用
 
 fromfunction\( `function`, shape, \*\*kwargs \) 用函数根据index坐标来生成数据块，函数的参数有几个，由shape决定。
-
 fromiter\(`iterable, dtype`,    count\)   把python的可迭代对象转换成1D的数据
-
 fromstring\( `string`, dtype, count, sep \)   把python的字符串转换成1D的数据
 
 #### loadtxt 函数 和 savetxt 函数配合，支持gzip
-
 loadtxt\( `fname`, dtype, comments,  delimiter, ... \)   从硬盘的 txt 文件载入数据，可自动识别gzip文件
-
 savetxt\(`fname, X`, fmt='%.18e', delimiter='', newline='\n', header='', footer='', comments='\#'\) 将数据X保存到外部文件中去，如果fname以“.gz”结尾，文件将自动保存为压缩的gzip文件。
 
 #### load 函数 和 save, savez, savez\_compressed函数配合，支持pickle
 
 load\( `file`, mmap=None, allow\_pickle=True, fix\_imports=True, encoding='ASCII' \) 从npy或npz文件里载入数据,和下面的 save,  savez,  savez\_compressed函数配合使用。
-
 save\( `file, arr`,   allowpickle=True, fix\_imports=True\) 将一块数据 arr 保存到硬盘二进制文件 xxx.npy
-
 savez\( `file, *args`, \*\*kwds\)  将多个数据块保存到硬盘单一文件 xxx.npz里，不压缩。
-
 savez\_compressed\( `file, *args`, \*\*kwds \)  压缩版 savez\( \)
 
 ## 创建 record arrays \(numpy.rec是numpy.core.records的别名\)
@@ -71,13 +64,9 @@ savez\_compressed\( `file, *args`, \*\*kwds \)  压缩版 savez\( \)
 我们可以看到 ar.x 其实就是 a\['x'\] 的简写版。
 
 np.rec.array\( `obj`,  dtype, shape, ... \)           把各种obj转换成一个 record 数据块。
-
 np.rec.fromarrays\( `arrayList`,  dtype, ... \) 把python列表里的每个 array 合并成一个 record 数据块。
-
 np.rec.fromrecords\( recList, dtype, ...\)          把python列表里的每个 reccord 合并成一个大 record 数据块。
-
 np.rec.fromstring\( `datastring`,  dtype \)    由字符串创建一个只读的record数组
-
 np.rec.fromfile\( fd, dtype, shape, ... \)            由外部文件数据创建record数组
 
 ### 创建 character arrays \(numpy.char是 numpy.core.defchararray的别名\)
@@ -85,7 +74,6 @@ np.rec.fromfile\( fd, dtype, shape, ... \)            由外部文件数据创�
 这种数组提供一个文字型数组的视窗
 
 np.char.array\( obj, itemsize, ... \)     创建一个 chararray。
-
 np.char.asarray\( obj, itemsize, ... \) 把输入转换成一个 chararray, 如果有必要会copy数据。
 
 ```
@@ -96,34 +84,20 @@ np.char.asarray\( obj, itemsize, ... \) 把输入转换成一个 chararray, 如�
 ### 根据数值范围参数来创建新的数据块
 
 arange\( start, `stop`, step,  dtype\)
-
 linspace\(`start, stop`,  num,  endpoint, ...\)
-
 logspace\( `start, stop`, num, endpoint, base, ...\)
-
 geomspace\( `start, stop`, num, endpoint, dtype \)
-
 meshgrid\( \*xi, \*\*kwargs \) 从坐标向量返回坐标矩阵
-
 mgrid           是 nd\_grid 实例，返回一个稠密的多维度meshgrid
-
 ogrid            是 nd\_grid 实例，返回一个稀疏的多维度meshgrid
 
 ### 构建矩阵
 
 diag\( `v`, k \) 提取对角线或者构造一个对角线矩阵
-
 diagflat\( `v`, k \) 输入1D的数据串，转换成2D的对角线矩阵
-
 tri\( `N`, M, k, dtype\) 三角矩阵，对角线或对角线下方是1，其余是0
-
 tril\( `m`, k \) 下三角矩阵
-
 triu\( `m`, k \) 上三角矩阵
-
 vander\( `x`, N, increasing\) 生成范德蒙矩阵
-
 mat\(`data`, dtype\) 把data转换成矩阵类型
-
 bmat\( obj, ldict, gdict\) 把python对象转换成矩阵类型
-
