@@ -46,7 +46,7 @@ fromstring\( `string`, dtype, count, sep \)   把python的字符串转换成1D�
 
 loadtxt\( `fname`, dtype, comments,  delimiter, ... \)   从硬盘的 txt 文件载入数据，可自动识别gzip文件
 
-savetxt\( fname, X, fmt='%.18e', delimiter='', newline='\n', header='', footer='', comments='\#'\) 将数据X保存到外部文件中去，如果fname以“.gz”结尾，文件将自动保存为压缩的gzip文件。
+savetxt\(` fname, X`, fmt='%.18e', delimiter='', newline='\n', header='', footer='', comments='\#'\) 将数据X保存到外部文件中去，如果fname以“.gz”结尾，文件将自动保存为压缩的gzip文件。
 
 #### load 函数 和 save, savez, savez\_compressed函数配合，支持pickle
 
