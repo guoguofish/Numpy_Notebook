@@ -34,13 +34,23 @@ asmatrix\( `data`,  dtype\) 将data转换成 matrix 矩阵类型
 
 frombuffer\( `buffer`, dtype, count, offset \)
 
-fromfile\( `file`, dtype, count, sep\)
+fromfile\( `file`, dtype, count, sep\)  和ndarray.tofile\(file\)配合使用
 
-fromfunction\( `function`, shape, \*\*kwargs \)
+fromfunction\( `function`, shape, \*\*kwargs \) 用函数根据index坐标来生成数据块，函数的参数有几个，由shape决定。
 
 fromiter\(`iterable, dtype`,    count\)   把python的可迭代对象转换成1D的数据
 
 fromstring\( `string`, dtype, count, sep \)   把python的字符串转换成1D的数据
 
-loadtxt\( `fname`, dtype, comments,  delimiter, ... \)   从硬盘的txt文件载入数据
+loadtxt\( `fname`, dtype, comments,  delimiter, ... \)   从硬盘的 txt 文件载入数据
+
+load\( `file`, mmap=None, allow\_pickle=True, fix\_imports=True, encoding='ASCII' \) 从npy或npz文件里载入数据,和下面的 save,  savez,  savez\_compressed函数配合使用。
+
+save\( `file, arr`,   allowpickle=True, fix\_imports=True\) 将数据 arr 保存到硬盘二进制文件 xxx.npy 
+
+savez\( `file, *args`, \*\*kwds\)  将多个数据块保存到硬盘单一文件 xxx.npz里，不压缩。
+
+savez\_compressed\( `file, *args`, \*\*kwds \)  压缩版 savez\( \)
+
+
 
