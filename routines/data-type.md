@@ -1,20 +1,28 @@
 ## Data type
 
-issctype\( rep \)
+can\_cast\(from, totype, casting = \)
 
-issubdtype\(arg1, arg2\)
+promote\_types\(type1, type2\)
 
-issubsctype\(arg1, arg2\)
+min\_scalar\_type\(a\)
 
-issubclass\_\(arg1, arg2\)
-
-find\_common\_type\(array\_types, scalar\_types\)
+result\_type\(\*arrays\_and\_dtypes\)
 
 ## 创建 data types
 
 ## Data type 信息
 
 ## Data type 测试
+
+issctype\( rep \)
+
+issubdtype\(arg1, arg2\)
+
+issubsctype\(arg1, arg2\)
+
+issubclass\_\(arg1, arg2\)
+
+find\_common\_type\(array\_types, scalar\_types\)
 
 ## Miscellaneous 其它
 
