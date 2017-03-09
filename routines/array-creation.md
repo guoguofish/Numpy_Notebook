@@ -137,3 +137,7 @@ triu\( `m`, k \) 上三角矩阵
 
 vander\( `x`, N, increasing\) 生成范德蒙矩阵
 
+mat\(`data`, dtype\) 把data转换成矩阵类型
+
+bmat\( obj, ldict, gdict\) 把python对象转换成矩阵类型
+
