@@ -1,12 +1,10 @@
-## （这里np代表numpy模块，ndarray代表数据块）
-
-np.copyto\(`dst, src`, casting, where\) 数据块间拷贝。
+copyto\(`dst, src`, casting, where\) 数据块间拷贝。
 
 ### 改变数据块的形状
 
-np.reshape\( `a, newshape`, order\)
+reshape\( `a, newshape`, order\)
 
-np.ravel\( `a`, order\) 返回内存连续版
+ravel\( `a`, order\) 返回内存连续版
 
 ndarray.flat           返回一个1D的迭代器
 
@@ -14,11 +12,11 @@ ndarray.flatten\( \)  返回一个1D的副本
 
 ### 类似转置的操作
 
-np.moveaxis\( a, source, destination \)
+moveaxis\( a, source, destination \)
 
-np.rollaxis\( a, axis, start \)
+rollaxis\( a, axis, start \)
 
-np.swapaxes\( a, axis1, axis2\)
+swapaxes\( a, axis1, axis2\)
 
 ndarray.T
 
@@ -26,19 +24,51 @@ transpose\( a, axes \)
 
 ### 改变维度
 
-np.atleast\_1d\( \*arys \)
+atleast\_1d\( \*arys \)
 
-np.atleast\_2d\( \*arys \)
+atleast\_2d\( \*arys \)
 
-np.atleast\_3d\( \*arys \)
+atleast\_3d\( \*arys \)
 
-np.broadcast
+broadcast
 
-np.broadcast\_to\( `array, shape`, subok\)
+broadcast\_to\( `array, shape`, subok\)
 
-np.broadcast\_arrays\(\*args, \*\*kwargs\)
+broadcast\_arrays\(\*args, \*\*kwargs\)
 
 expand\_dims\(a, axis\)
 
 squeeze\( a, axis\)
+
+### 改变数据块的种类
+
+asarray\(a, dtype, order\)
+
+asanyarray\(a, dtype, order\)
+
+asmatrix\(data, dtype\)
+
+asfarray\(a, dtype\)
+
+asfortranarray\( a, dtype\)
+
+ascontiguousarray\(a, dtype\)
+
+asarray\_chkfinite\(a, dtype, order\)
+
+asscalar\(a\)
+
+require\( a, dtype, requirements \)
+
+### 结合数据块
+
+### 拆分数据块
+
+### Tiling Arrays 把小块数据铺成大块数据
+
+### 添加和删除元素
+
+### 重新排列元素
+
+
 
