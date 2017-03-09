@@ -8,7 +8,7 @@ np.linalg.det\( a \) 计算行列式
 
 np.linalg.eig\( a \)  计算一个方阵的特征值及特征向量
 
-np.linalg.eigh\( a, UPLO='L' \)  返回Hermitian 或 symmetric 矩阵的特征值和特征向量
+np.linalg.eigh\( a, UPLO='L' \)  返回 Hermitian 或 symmetric 矩阵的特征值和特征向量
 
 ### FFT 快速傅立叶变换
 
