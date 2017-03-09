@@ -24,7 +24,7 @@ finfo
 
 iinfo\( type \)
 
-MachAr\( \[float\_conv, int\_conv, ...\] \)
+MachAr\( \[float\_conv, int\_conv, ...\] \)
 
 ## Data type 测试
 
