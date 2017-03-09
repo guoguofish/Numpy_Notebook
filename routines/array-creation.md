@@ -129,13 +129,11 @@ diag\( `v`, k \) 提取对角线或者构造一个对角线矩阵
 
 diagflat\( `v`, k \) 输入1D的数据串，转换成2D的对角线矩阵
 
-tri\( `N`, M, k, dtype\)
+tri\( `N`, M, k, dtype\) 对角线或对角线下方是1，其余是0
 
-tril\( `m`, k \)
+tril\( `m`, k \) 下三角矩阵
 
-triu\( `m`, k \)
+triu\( `m`, k \) 上三角矩阵
 
-vander\( `x`, N, increasing\)
-
-
+vander\( `x`, N, increasing\) 生成范德蒙矩阵
 
