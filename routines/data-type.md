@@ -1,16 +1,16 @@
 ## Data type
 
-can\_cast\(from, totype, casting = \)
+can\_cast\( from, totype, casting= \)
 
-promote\_types\(type1, type2\)
+promote\_types\( type1, type2\)
 
-min\_scalar\_type\(a\)
+min\_scalar\_type\( a \)
 
-result\_type\(\*arrays\_and\_dtypes\)
+result\_type\( \*arrays\_and\_dtypes\)
 
-common\_type\(\*arrays\)
+common\_type\( \*arrays\)
 
-obj2sctype\(rep\[, default\]\)
+obj2sctype\( rep,   default \)
 
 ## 创建 data types
 
