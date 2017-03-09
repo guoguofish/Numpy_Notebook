@@ -109,5 +109,5 @@ np.char.asarray\( obj, itemsize, ... \) 把输入转换成一个 chararray, 如�
 
 ### 根据数值范围参数来创建新的数据块
 
-
+arange\( start, `stop`, step, dtype\)
 
