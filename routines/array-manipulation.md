@@ -62,13 +62,59 @@ require\( a, dtype, requirements \)
 
 ### 结合数据块 Joining Arrays
 
+concatenate\(\(a1, a2, ...\), axis\)
+
+stack\(arrays, axis\)
+
+column\_stack\(tup\)
+
+hstack\(tup\)
+
+vstack\(tup\)
+
 ### 拆分数据块 Splitting Arrays
 
-### 把小块数据铺成大块数据，像铺砖瓦一样 Tiling Arrays 
+split\(ary, indices\_or\_sections, axis\)
+
+array\_split\(ary, indices\_or\_sections, axis\)
+
+dsplit\(ary,indices\_or\_sections, axis\)
+
+hsplit\(ary, indices\_or\_sections, axis\)
+
+vsplit\(ary, indices\_or\_sections, axis\)
+
+### 把小块数据铺成大块数据，像铺砖瓦一样 Tiling Arrays
+
+tile\(A, reps\)
+
+repeat\(a, repeats, axis\)
 
 ### 添加和删除元素
 
+delete\(arr, obj, axis\)
+
+insert\(arr, obj, values, axis\)
+
+append\(arr, values, axis\)
+
+resize\(a, new\_shape\)
+
+trim\_zeros\( filt, trim\)
+
+unique\(ar, return\_index, return\_inverse, ...\)
+
 ### 重新排列元素
 
+flip\(m, axis\)
 
+fliplr\(m\)
+
+flipud\(m\)
+
+reshape\(a, newshape, order\)
+
+roll\(a, shift, axis\)
+
+rot90\(m, k, axes\)
 
