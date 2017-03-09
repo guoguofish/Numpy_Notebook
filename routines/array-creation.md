@@ -69,9 +69,18 @@ savez\_compressed\( `file, *args`, \*\*kwds \)  压缩版 savez\( \)
 >>> a = np.array([(1,2.0), (1,2.0)], dtype=[('x',int),('y', float)])
 >>> type(a)     # 返回 <class 'numpy.ndarray'>
 >>> type(a[0])  # 这里竟然返回的是 <class 'numpy.void'>
->>> a['x']
->>> a['y']
+>>> a['x']      # 返回全  int数的ndarray: [1, 1]
+>>> a['y']      # 返回全float数的ndarray: [ 2., 2.]
 ```
 
+但是像 a\['x'\] 这样写代码太麻烦了, 于是就引入了record 数组，它的数据类型是 recarray .
 
+```
+>>> ar = np.rec.array(a)
+>>> type(ar)   # 返回 <class 'numpy.recarray'>
+>>> ar.x   # 返回全  int数的ndarray: [1, 1]
+>>> ar.y   # 返回全float数的ndarray: [ 2., 2.]
+```
+
+我们可以看到 ar.x 其实就是 a\['x'\] 的简写版。
 
