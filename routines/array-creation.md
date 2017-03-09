@@ -94,7 +94,7 @@ np.rec.fromstring\( `datastring`,  dtype \)    由字符串创建一个只读的
 
 np.rec.fromfile\( fd, dtype, shape, ... \)            由外部文件数据创建record数组
 
-## 创建 character arrays \(numpy.char是numpy.core.defchararray的别名\)
+## 创建 character arrays \(numpy.char是 numpy.core.defchararray的别名\)
 
 这种数组提供一个文字型数组的视窗
 
