@@ -64,7 +64,7 @@ require\( a, dtype, requirements \)
 
 ### 拆分数据块
 
-### Tiling Arrays 把小块数据铺成大块数据
+### Tiling Arrays 把小块数据铺成大块数据，像铺砖瓦一样
 
 ### 添加和删除元素
 
