@@ -14,6 +14,10 @@ obj2sctype\( `rep`,   default \)
 
 ## 创建 data types
 
+dtype 类
+
+format\_parser\(formats, names, titles\[, ...\]\)
+
 ## Data type 信息
 
 ## Data type 测试
