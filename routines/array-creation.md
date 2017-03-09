@@ -32,3 +32,15 @@ ascontiguousarray\( `a`, dtype \) 让一块ndarray的数据在内存中紧凑起
 
 asmatrix\( `data`,  dtype\) 将data转换成 matrix 矩阵类型
 
+frombuffer\( `buffer`, dtype, count, offset \)
+
+fromfile\( `file`, dtype, count, sep\)
+
+fromfunction\( `function`, shape, \*\*kwargs \)
+
+fromiter\(` iterable, dtype`,    count\)
+
+fromstring\( `string`, dtype, count, sep \)   把python的字符串转换成1D的数据
+
+loadtxt\( `fname`, dtype, comments,  delimiter, ... \)   从硬盘的txt文件载入数据
+
