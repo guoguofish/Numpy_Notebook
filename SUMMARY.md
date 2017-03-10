@@ -22,7 +22,7 @@
   * [Functional 函数式编程](routines/functional.md)
   * [Numpy specific 帮助函数](routines/numpy-specific.md)
   * [indexing 索引操作](routines/indexing.md)
-  * Input and output 输入和输出
+  * [Input and output 输入和输出](routines/input-and-output.md)
   * [Linear algebra 线性代数](routines/linear-algebra.md)
   * logic 逻辑处理
   * Masked array 蒙面数组
