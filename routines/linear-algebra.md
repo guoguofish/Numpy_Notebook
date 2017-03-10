@@ -50,3 +50,7 @@ linalg.slogdet\(a\)
 
 trace\(a, ...\)
 
+### 解方程，求逆矩阵
+
+
+
