@@ -24,5 +24,5 @@ linalg.cholesky\(a\)
 
 linalg.qr\(a \[, mode\]\)
 
-linalg.svd\(a, full\_matrices_, _compute\_uv\)
+linalg.svd\(a \[, full\_matrices,  compute\_uv\]\)
 
