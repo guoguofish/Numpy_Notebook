@@ -25,7 +25,7 @@
   * [Input and output 输入和输出](routines/input-and-output.md)
   * [Linear algebra 线性代数](routines/linear-algebra.md)
   * [logic 逻辑处理](routines/logic.md)
-  * Masked array 蒙面数组
+  * [Masked array 蒙面数组](routines/masked-array.md)
   * [math 数学](routines/math.md)
   * Matrix library 矩阵库
   * Miscellaneous 其它函数
