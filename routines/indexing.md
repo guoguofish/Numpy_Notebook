@@ -58,5 +58,15 @@ putmask\(a, mask, values\)
 
 fill\_diagonal\(a, val   \[, wrap\]\)
 
+### 迭代遍历数据
 
+nditer
+
+ndenumerate\( arr \)
+
+ndindex\(\*shape\)
+
+flatiter
+
+lib.Arrayterator\( var \[, buf\_size\]\)
 
