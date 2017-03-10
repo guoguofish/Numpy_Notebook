@@ -38,7 +38,7 @@ ihfft\( a, n=, axis=, norm= \) 逆变换
 
 fftfreq\(n, d=1.0\)  返回离散傅立叶变换的一组频率
 
-rfftfreq\(n, d\)
+rfftfreq\(n, d\)   返回离散傅立叶变换的一组频率
 
 fftshift\(x, axes\) 把0频移到频谱的中间
 
