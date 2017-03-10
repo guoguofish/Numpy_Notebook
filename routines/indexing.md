@@ -36,15 +36,15 @@ triu\_indices\_from\( arr\[, k\] \)
 
 ### 类似index的操作
 
-take
+take\(a, indices \[,axis, out, mode\]\)
 
-choose
+choose\(a, choices \[,out, mode\]\)
 
-compress
+compress\(condition, a \[, axis, out\]\)
 
-diag
+diag\(v,  \[ k \]\)
 
-diagonal
+diagonal\(a \[,offset, axis1, axis2\]\)
 
-select
+select\( condlist, choicelist  \[, default\] \)
 
