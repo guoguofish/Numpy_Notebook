@@ -36,3 +36,15 @@ triu\_indices\_from\( arr\[, k\] \)
 
 ### 类似index的操作
 
+take
+
+choose
+
+compress
+
+diag
+
+diagonal
+
+select
+
