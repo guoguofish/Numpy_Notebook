@@ -1,8 +1,8 @@
-add\(x, y \[, out\]\)         返回 $$x_i + y_i$$
+add\(x, y \[, out\]\)             返回 $$x_i + y_i$$
 
-subtract\(x, y \[, out\]\)         返回 $$x_i - y_i$$
+subtract\(x, y \[, out\]\)     返回 $$x_i - y_i$$
 
-multiply\(x, y \[, out\]\)         返回 $$x_i * y_i$$
+multiply\(x, y \[, out\]\)      返回 $$x_i * y_i$$
 
 divide\(x, y \[, out\]\)         返回 $$x_i \div y_i$$
 
@@ -10,7 +10,7 @@ logaddexp\(x, y \[, out\]\)      求 $$ln(e^{x_i}+e^{y_i})$$
 
 logaddexp2\(x, y \[, out\]\)    求$$log_2{(2^{x_i} + 2^{y_i})}$$
 
-true\_divide\(x1, x2\[, out\]\)    返回 x1 / x2 （真除法）的结果。
+true\_divide\(x1, x2\[, out\]\)     返回 x1 / x2 （真除法）的结果。
 
 floor\_divide\(x1, x2\[, out\]\)    返回 x1 / x2 （地板除）的结果。返回左侧最靠近的整数。
 
