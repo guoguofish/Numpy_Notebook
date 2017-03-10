@@ -17,7 +17,7 @@
   * [Scipy 加速版接口](routines/scipy.md)
   * [Binary 二进制](routines/binary.md)
   * [string 字符串](routines/string.md)
-  * Discrete fft 离散傅立叶变换
+  * [Discrete fft 离散傅立叶变换](routines/discrete-fft.md)
   * Financial 金融函数
   * Functional 函数式编程
   * [Numpy specific 帮助函数](routines/numpy-specific.md)
