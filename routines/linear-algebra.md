@@ -38,7 +38,7 @@ linalg.eivalsh\(a\)
 
 ### Norms and other numbers
 
-linalg.norm\(x, ...\)
+linalg.norm\(x, ord=, axis=, keepdims=\)
 
 linalg.cond\(x, ...\)
 
@@ -67,6 +67,4 @@ linalg.tensorinv\(a, ...\)
 ### 异常
 
 linalg.LinAlgError
-
-
 
