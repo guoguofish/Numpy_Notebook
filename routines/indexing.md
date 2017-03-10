@@ -34,3 +34,5 @@ triu\_indices\(n\[, k, m\]\)
 
 triu\_indices\_from\( arr\[, k\] \)
 
+### 类似index的操作
+
