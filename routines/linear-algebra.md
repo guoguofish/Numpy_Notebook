@@ -22,3 +22,7 @@ kron\(a, b\)
 
 linalg.cholesky\(a\)
 
+linalg.qr\(a \[, mode\]\)
+
+linalg.svd\(a, full\_matrices_, _compute\_uv\)
+
