@@ -13,7 +13,7 @@ bytes\(length\)    Return random bytes.
 
 ## Permutations随机排列
 
-shuffle\(x\)    Modify a sequence in-place by shuffling its contents.  
+shuffle\(x\)    随机打乱数据的排列顺序，对于多位数组，只打乱第一个维度。  
 permutation\(x\)    Randomly permute a sequence, or return a permuted range.
 
 ## Distributions 分布
