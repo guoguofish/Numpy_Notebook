@@ -13,8 +13,8 @@ bytes\(length\)    Return random bytes.
 
 ## Permutations随机排列
 
-np.random.shuffle\(x\)    \[in-place\]随机打乱数据的排列顺序，对于多位数组，只打乱第一个维度。  
-permutation\(x\)    Randomly permute a sequence, or return a permuted range.
+np.random.shuffle\(x\)     \[in-place\] 随机打乱数据的排列顺序，对于多维数组，只打乱第一个维度。  
+permutation\(x\)    随即打乱一个序列数据, 或返回一个打乱的范围数据, 有点像arange\(x\)。对于多维数组，只打乱第一个维度。
 
 ## Distributions 分布
 
