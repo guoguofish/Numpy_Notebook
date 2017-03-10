@@ -19,7 +19,7 @@
   * [string 字符串](routines/string.md)
   * [Discrete fft 离散傅立叶变换](routines/discrete-fft.md)
   * [Financial 金融函数](routines/financial.md)
-  * Functional 函数式编程
+  * [Functional 函数式编程](routines/functional.md)
   * [Numpy specific 帮助函数](routines/numpy-specific.md)
   * indexing 索引操作
   * Input and output 输入和输出
