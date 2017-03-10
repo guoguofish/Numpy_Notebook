@@ -20,5 +20,5 @@ kron\(a, b\)
 
 ### 分解
 
-
+linalg.cholesky\(a\)
 
