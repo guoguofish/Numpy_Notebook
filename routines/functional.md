@@ -6,3 +6,5 @@ apply\_over\_axes\(func, a,  axes\)  用func\(a,axis\)来处理a的多个axis
 
 frompyfunc\(\)func, nin, nout\)     将python函数转换成ufunc
 
+piecewise\(x, condlist, funclist, \*args, \*\*kw\) 给定一组条件，在条件为真时，执行每一个函数
+
