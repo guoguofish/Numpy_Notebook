@@ -26,3 +26,27 @@ linalg.qr\(a \[, mode\]\)
 
 linalg.svd\(a \[, full\_matrices,  compute\_uv\]\)
 
+### 矩阵特征值
+
+linalg.eig\(a\)
+
+linalg.eigh\(a\)
+
+linalg.eigvals\(a\)
+
+linalg.eivalsh\(a\)
+
+### Norms and other numbers
+
+linalg.norm\(x, ...\)
+
+linalg.cond\(x, ...\)
+
+linalg.det\(a\)
+
+linalg.matrix\_rank\(M, ...\)
+
+linalg.slogdet\(a\)
+
+trace\(a, ...\)
+
