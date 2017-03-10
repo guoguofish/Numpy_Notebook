@@ -10,13 +10,15 @@ nonzero\( a \)
 
 where\( condition \[, x, y\] \)
 
-indices\(dimensions\[, dtype\]\)
+indices\(dimensions\[, dtype\]\)
 
 ix\_\(\*args\)
 
 ogrid
 
-ravel\_multi\_index\(multi\_index, dims\[, mode, ...\]\)
+ravel\_multi\_index\(multi\_index, dims\[, mode, ...\]\)
 
-unravel\_index\(indices, dims\[, order\]\)
+unravel\_index\(indices, dims\[, order\]\)
+
+diag\_indices\(n\[, ndim\]\)
 
