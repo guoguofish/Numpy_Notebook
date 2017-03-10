@@ -6,7 +6,7 @@
 2. Trigonometric 三角函数
 3. Bit-twidding 位变换操作
 4. Comparison 比较操作
-5. Floating 浮点数处理
+5. Floating 其它处理
 
 这些函数中有个可有可无的参数out, 他的意思是说你可以把计算结果放在out里面，若没有这个参数就返回结果。
 
