@@ -30,7 +30,7 @@
   * [Matrix library 矩阵库](routines/matrix-library.md)
   * [Miscellaneous 其它函数](routines/miscellaneous.md)
   * [Padding 填充函数](routines/padding.md)
-  * polynomials 多项式
+  * [polynomials 多项式](routines/polynomials.md)
   * [Random 随机采样](routines/random.md)
   * Set 集合
   * [sorting searching counting 排序搜索计数](routines/sorting-searching-counting.md)
