@@ -28,7 +28,7 @@
   * [Masked array 蒙面数组](routines/masked-array.md)
   * [math 数学](routines/math.md)
   * [Matrix library 矩阵库](routines/matrix-library.md)
-  * Miscellaneous 其它函数
+  * [Miscellaneous 其它函数](routines/miscellaneous.md)
   * Padding 填充函数
   * polynomials 多项式
   * [Random 随机采样](routines/random.md)
