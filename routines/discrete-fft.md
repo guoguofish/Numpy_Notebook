@@ -16,7 +16,7 @@ np.fft.ifftn\(a\)计算nD离散傅立叶反变换
 
 ## Real FFTs
 
-rfft\( a , n=, axis=, norm= \) 计算1D离散傅立叶变换，输入的是 real-valued array
+rfft\( a , n=, axis=, norm= \) 计算1D离散傅立叶变换，输入的是 real-valued array
 
 irfft\( a, n=, axis=, norm= \) 1D反变换
 
@@ -36,11 +36,11 @@ ihfft\( a, n=, axis=, norm= \) 逆变换
 
 ## 帮助程序
 
-fftfreq\(n, d\)
+fftfreq\(n, d=1.0\)  返回离散傅立叶变换的一组频率
 
 rfftfreq\(n, d\)
 
-fftshift\(x, axes\)
+fftshift\(x, axes\) 把0频移到频谱的中间
 
-ifftshift\(x, axes\)
+ifftshift\(x, axes\)   是fftshift的逆运算
 
