@@ -35,6 +35,6 @@
   * [Set 集合](routines/set.md)
   * [sorting searching counting 排序搜索计数](routines/sorting-searching-counting.md)
   * [statistics 统计学](routines/statistics.md)
-  * Test Support 测试支持
+  * [Test Support 测试支持](routines/test-support.md)
   * [Window 频谱窗函数](routines/window.md)
 
