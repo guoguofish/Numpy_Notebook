@@ -32,7 +32,7 @@
   * [Padding 填充函数](routines/padding.md)
   * [polynomials 多项式](routines/polynomials.md)
   * [Random 随机采样](routines/random.md)
-  * Set 集合
+  * [Set 集合](routines/set.md)
   * [sorting searching counting 排序搜索计数](routines/sorting-searching-counting.md)
   * [statistics 统计学](routines/statistics.md)
   * Test Support 测试支持
