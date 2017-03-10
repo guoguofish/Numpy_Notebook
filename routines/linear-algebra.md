@@ -16,5 +16,5 @@ einsum\(subscripts, \*operands \[, out, dtype, ....\]\)
 
 linalg.matrix\_power\(M, n\)
 
-
+kron\(a, b\)
 
