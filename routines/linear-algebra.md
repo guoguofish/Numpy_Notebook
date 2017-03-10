@@ -18,3 +18,7 @@ linalg.matrix\_power\(M, n\)
 
 kron\(a, b\)
 
+### 分解
+
+
+
