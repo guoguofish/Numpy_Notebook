@@ -34,7 +34,7 @@
   * Random 随机采样
   * Set 集合
   * [sorting searching counting 排序搜索计数](routines/sorting-searching-counting.md)
-  * statistics 统计学
+  * [statistics 统计学](routines/statistics.md)
   * Test Support 测试支持
   * [Window 频谱窗函数](routines/window.md)
 
