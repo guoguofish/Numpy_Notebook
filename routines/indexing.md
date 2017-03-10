@@ -26,5 +26,9 @@ diag\_indices\_from\(arr\)
 
 mask\_indices\(n, mask\_func\[, k\]\)
 
-tril\_indices\(n\[, k, m\]\)
+tril\_indices\(n\[, k, m\]\)
+
+tril\_indices\_from\(arr\[, k\]\)
+
+triu\_indices\(n\[, k, m\]\)
 
