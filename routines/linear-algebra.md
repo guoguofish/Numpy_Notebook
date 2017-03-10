@@ -52,5 +52,21 @@ trace\(a, ...\)
 
 ### 解方程，求逆矩阵
 
+linalg.solve\(a, b\)
+
+linalg.tensorsolve\(a, b,...\)
+
+linalg.lstsq\(a,b,...\)
+
+linalg.inv\(a\)
+
+linalg.pinv\(a,...\)
+
+linalg.tensorinv\(a, ...\)
+
+### 异常
+
+linalg.LinAlgError
+
 
 
