@@ -31,7 +31,7 @@
   * Miscellaneous 其它函数
   * Padding 填充函数
   * polynomials 多项式
-  * Random 随机采样
+  * [Random 随机采样](routines/random.md)
   * Set 集合
   * [sorting searching counting 排序搜索计数](routines/sorting-searching-counting.md)
   * [statistics 统计学](routines/statistics.md)
