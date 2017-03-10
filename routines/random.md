@@ -54,7 +54,7 @@ wald\(mean, scale\[, size\]\)    Draw samples from a Wald, or inverse Gaussian, 
 weibull\(a\[, size\]\)    Draw samples from a Weibull distribution.  
 zipf\(a\[, size\]\)    Draw samples from a Zipf distribution.
 
-## Random generator
+## 随机生成器
 
 RandomState    Container for the Mersenne Twister pseudo-random number generator.  
 seed\(\[seed\]\)    Seed the generator.  
