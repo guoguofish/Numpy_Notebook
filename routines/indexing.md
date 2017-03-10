@@ -48,3 +48,15 @@ diagonal\(a \[,offset, axis1, axis2\]\)
 
 select\( condlist, choicelist  \[, default\] \)
 
+### 插入数据
+
+place\(arr, mask, vals\)
+
+put\(a, ind, v  \[, mode\]\)
+
+putmask\(a, mask, values\)
+
+fill\_diagonal\(a, val   \[, wrap\]\)
+
+
+
