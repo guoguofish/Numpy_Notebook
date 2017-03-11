@@ -10,7 +10,6 @@ right\_shift\(x1, x2\[, out\]\)       位向右移.  相当于$$x_i \div 2^{y_i}
 ### Bit packing
 
 packbits\(myarray, axis=-1\)        
-
                将myarray数据块打包成字节数据块，打包后的数组元素类型是uint8.  
                myarray的数据元素是二值数据，要么是 0 或 1，要么是Ture 或 False.  
                axis=-1可保持输入和输出的数据形状基本不变。
