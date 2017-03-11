@@ -47,8 +47,8 @@ base\_repr\(number\[, base, padding\]\)    将num转换成base进制文本.
 ### Data sources  
 
 DataSource\(\[destpath\]\) 类    一个通用的数据源文件 \(file, http, ftp, ...\).
-   它的实例有几个method:
-   abspath(path)	    返回文件的绝对路径 in the DataSource directory.
-   exists(path)	        判断文件是否存在
-   open(path[, mode])	打开并返回一个 file-like 对象.
+        它的实例有几个method:
+            abspath(path)	    返回文件的绝对路径 in the DataSource directory.
+            exists(path)	    判断文件是否存在
+            open(path[, mode])	打开并返回一个 file-like 对象.
 
