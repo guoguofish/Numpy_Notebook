@@ -24,8 +24,8 @@ ndarray.tofile\(fid\[, sep, format\]\)    将数据块保存到文件fid.
 ### String formatting
 
 array2string\(a\[, max\_line\_width, precision, ...\]\)    Return a string representation of an array.  
-array\_repr\(arr\[, max\_line\_width, precision, ...\]\)    Return the string representation of an array.  
-array\_str\(a\[, max\_line\_width, precision, ...\]\)    Return a string representation of the data in an array.
+array\_repr\(arr\[, max\_line\_width, precision, ...\]\)   Return the string representation of an array.  
+array\_str\(a\[, max\_line\_width, precision, ...\]\)      Return a string representation of the data in an array.
 
 ### Memory mapping files
 
