@@ -3,7 +3,7 @@
 c\_  沿着第二个轴连接数据块，np.c\[arr1, arr2, ...\]  
 r\_  沿着第一个轴连接数据块。  
 s\_  为数据构造更好的 index 元组。
-`例如 >>> np.array([0, 1, 2, 3, 4])[np.s\_[2::2]]  # array([2, 4])`
+`例如 >>> np.array([0, 1, 2, 3, 4])[np.s_[2::2]]  # array([2, 4])`
 nonzero\( a \)  
 where\( condition \[, x, y\] \)  
 indices\(dimensions\[, dtype\]\)  
