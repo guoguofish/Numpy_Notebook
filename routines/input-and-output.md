@@ -4,7 +4,7 @@ load\(file\[, mmap\_mode, allow\_pickle, ...\]\)   从npy或npz文件里载入�
 save\(file, arr\[, allow\_pickle, fix\_imports\]\)   将一块数据 arr 保存到硬盘二进制文件 file.npy.  
 savez\(file, \_args, \*\*kwds\)    把几个数组保存到一个没压缩的 file.npz文件  
 savez\_compressed\(file, \_args, \*\*kwds\)    把几个数组保存到一个压缩了的 file.npz文件  
-The format of these binary file types is documented in [http://docs.scipy.org/doc/numpy/neps/npy-format.html](http://docs.scipy.org/doc/numpy/neps/npy-format.html)
+这些二进制文件的格式说明位于  [http://docs.scipy.org/doc/numpy/neps/npy-format.html](http://docs.scipy.org/doc/numpy/neps/npy-format.html)
 
 ### Text files
 
