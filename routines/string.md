@@ -5,8 +5,8 @@ multiply\(a, i\)       对应的元素字符串重复i 次. 返回a\*\*i
 mod\(a, values\)    返回 \(a % i\), 格式化字符串  
 capitalize\(a\)        首字母大写的副本  
 center\(a, width\[, fillchar\]\)    Return a copy of a with its elements centered in a string of length width.  
-decode\(a\[, encoding, errors\]\)    Calls str.decode element-wise.  
-encode\(a\[, encoding, errors\]\)    Calls str.encode element-wise.  
+decode\(a\[, encoding, errors\]\)    并行 str.decode 解码.  
+encode\(a\[, encoding, errors\]\)    并行 str.encode 编码.  
 join\(sep, seq\)    Return a string which is the concatenation of the strings in the sequence seq.  
 ljust\(a, width\[, fillchar\]\)    Return an array with the elements of a left-justified in a string of length width.  
 lower\(a\)    Return an array with the elements converted to lowercase.  
@@ -26,14 +26,14 @@ translate\(a, table\[, deletechars\]\)    For each element in a, return a copy o
 upper\(a\)    Return an array with the elements converted to uppercase.  
 zfill\(a, width\)    Return the numeric string left-filled with zeros
 
-### Comparison
+### 元素级并行比较 Comparison
 
-equal\(x1, x2\)    Return \(x1 == x2\) element-wise.  
-not\_equal\(x1, x2\)    Return \(x1 != x2\) element-wise.  
+equal\(x1, x2\)                  Return \(x1 == x2\) element-wise.  
+not\_equal\(x1, x2\)           Return \(x1 != x2\) element-wise.  
 greater\_equal\(x1, x2\)    Return \(x1 &gt;= x2\) element-wise.  
-less\_equal\(x1, x2\)    Return \(x1 &lt;= x2\) element-wise.  
-greater\(x1, x2\)    Return \(x1 &gt; x2\) element-wise.  
-less\(x1, x2\)    Return \(x1 &lt; x2\) element-wise.
+less\_equal\(x1, x2\)          Return \(x1 &lt;= x2\) element-wise.  
+greater\(x1, x2\)                Return \(x1 &gt; x2\) element-wise.  
+less\(x1, x2\)                     Return \(x1 &lt; x2\) element-wise.
 
 ### String information
 
