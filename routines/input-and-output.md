@@ -29,7 +29,7 @@ array\_str\(a\[, max\_line\_width, precision, ...\]\)          返回数据字�
 
 ### Memory mapping files
 
-memmap 类    可从外部一个较大的数据文件载入一小段数据,生成一个memmap对象，它的行为像ndarray,
+memmap 类    可从外部一个较大的数据文件载入一小段数据,生成一个memmap对象，它的行为像ndarray,  
              不同于Python的mmap模块，mmap的行为更像是文件.  
              所有可以接受ndarray的函数都可以接受memmap对象.
 
@@ -37,18 +37,18 @@ memmap 类    可从外部一个较大的数据文件载入一小段数据,生�
 
 set\_printoptions\(\[precision, threshold, ...\]\)    全局 print 设置  
 get\_printoptions\(\)    返回当前的 print 设置.  
-set\_string\_function\(f\[, repr\]\)    为数据设置默认的str()的函数.即用一个python函数重载__str__ method
+set\_string\_function\(f\[, repr\]\)    为数据设置默认的str\(\)的函数.即用一个python函数重载**str** method
 
 ### Base-n representations
 
-binary\_repr\(num\[, width\]\)    将num转换成二进制文本
-base\_repr\(number\[, base, padding\]\)    将num转换成base进制文本.  
+binary\_repr\(num\[, width\]\)    将num转换成二进制文本  
+base\_repr\(number\[, base, padding\]\)    将num转换成base进制文本.
 
-### Data sources  
+### Data sources
 
-DataSource\(\[destpath\]\) 类    一个通用的数据源文件 \(file, http, ftp, ...\).
-        它的实例有几个method:
-            abspath(path)	    返回文件的绝对路径 in the DataSource directory.
-            exists(path)	    判断文件是否存在
-            open(path[, mode])	打开并返回一个 file-like 对象.
+DataSource\(\[destpath\]\) 类    一个通用的数据源文件 \(file, http, ftp, ...\).  
+        它的实例有几个method:  
+            abspath\(path\)             返回文件的绝对路径 in the DataSource directory.  
+            exists\(path\)                判断文件是否存在  
+            open\(path\[, mode\]\)    打开并返回一个 file-like 对象.
 
