@@ -30,8 +30,7 @@ array\_str\(a\[, max\_line\_width, precision, ...\]\)          返回数据字�
 ### Memory mapping files
 
 memmap 类    可从外部一个较大的数据文件载入一小段数据,生成一个memmap对象，它的行为像ndarray,
-
-              不同于Python的mmap模块，mmap的行为更像是文件.  
+             不同于Python的mmap模块，mmap的行为更像是文件.  
              所有可以接受ndarray的函数都可以接受memmap对象.
 
 ### Text formatting options
