@@ -41,8 +41,14 @@ set\_string\_function\(f\[, repr\]\)    为数据设置默认的str()的函数.�
 
 ### Base-n representations
 
-binary\_repr\(num\[, width\]\)    Return the binary representation of the input number as a string.  
-base\_repr\(number\[, base, padding\]\)    Return a string representation of a number in the given base system.  
-Data sources  
-DataSource\(\[destpath\]\)    A generic data source file \(file, http, ftp, ...\).
+binary\_repr\(num\[, width\]\)    将num转换成二进制文本
+base\_repr\(number\[, base, padding\]\)    将num转换成base进制文本.  
+
+### Data sources  
+
+DataSource\(\[destpath\]\) 类    一个通用的数据源文件 \(file, http, ftp, ...\).
+   它的实例有几个method:
+   abspath(path)	    返回文件的绝对路径 in the DataSource directory.
+   exists(path)	        判断文件是否存在
+   open(path[, mode])	打开并返回一个 file-like 对象.
 
