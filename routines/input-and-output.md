@@ -8,12 +8,12 @@ savez\_compressed\(file, \_args, \*\*kwds\)    把几个数组保存到一个压
 
 ### Text files
 
-loadtxt\(fname\[, dtype, comments, delimiter, ...\]\)    从text文件读取数据
-savetxt\(fname, X\[, fmt, delimiter, newline, ...\]\)    将数据X保存到 .txt 文件里
+loadtxt\(fname\[, dtype, comments, delimiter, ...\]\)    从text文件读取数据  
+savetxt\(fname, X\[, fmt, delimiter, newline, ...\]\)    将数据X保存到 .txt 文件里  
 genfromtxt\(fname, ...\)    分析外部text文件生成数据, 可特殊处理缺失的值. 许多可选参数是用来分析文件的.  
-fromregex\(file, regexp, dtype\)    从一个text文件构建一块结构化数据，使用正则表达式分析，正则表达式的分组会转化为结构化数据里的field字段
+fromregex\(file, regexp, dtype\)    从一个text文件构建一块结构化数据，使用正则表达式分析，正则表达式的分组会转化为结构化数据里的field字段  
 fromstring\(string\[, dtype, count, sep\]\)    将字符串转换成1-D的数据串。  
-ndarray.tofile\(fid\[, sep, format\]\)    将数据写入文件. 
+ndarray.tofile\(fid\[, sep, format\]\)    将数据写入文件.   
 ndarray.tolist\(\)    将数据块转换成 python list列表.
 
 ### Raw binary files
@@ -24,8 +24,8 @@ ndarray.tofile\(fid\[, sep, format\]\)    将数据块保存到文件fid.
 ### String formatting
 
 array2string\(a\[, max\_line\_width, precision, ...\]\)    将数据转换成可以格式化的字符串.  
-array\_repr\(arr\[, max\_line\_width, precision, ...\]\)   返回数据字符串和其他信息. 内部使用 array2string函数
-array\_str\(a\[, max\_line\_width, precision, ...\]\)      返回数据字符串. 内部使用 array2string函数
+array\_repr\(arr\[, max\_line\_width, precision, ...\]\)     返回数据字符串和其他信息. 内部使用 array2string函数  
+array\_str\(a\[, max\_line\_width, precision, ...\]\)          返回数据字符串. 内部使用 array2string函数
 
 ### Memory mapping files
 
