@@ -10,7 +10,7 @@ savez\_compressed\(file, \_args, \*\*kwds\)    把几个数组保存到一个压
 
 loadtxt\(fname\[, dtype, comments, delimiter, ...\]\)    从text文件读取数据
 savetxt\(fname, X\[, fmt, delimiter, newline, ...\]\)    将数据X保存到 .txt 文件里
-genfromtxt\(fname\[, dtype, comments, ...\]\)    Load data from a text file, with missing values handled as specified.  
+genfromtxt\(fname, ...\)    Load data from a text file, with missing values handled as specified.  
 fromregex\(file, regexp, dtype\)    从一个text文件构建一块结构化数据，使用正则表达式分析，正则表达式的分组会转化为结构化数据里的field字段
 fromstring\(string\[, dtype, count, sep\]\)    A new 1-D array initialized from raw binary or text data in a string.  
 ndarray.tofile\(fid\[, sep, format\]\)    Write array to a file as text or binary \(default\).  
