@@ -35,9 +35,9 @@ memmap 类    可从外部一个较大的数据文件载入一小段数据,生�
 
 ### Text formatting options
 
-set\_printoptions\(\[precision, threshold, ...\]\)    Set printing options.  
-get\_printoptions\(\)    Return the current print options.  
-set\_string\_function\(f\[, repr\]\)    Set a Python function to be used when pretty printing arrays.
+set\_printoptions\(\[precision, threshold, ...\]\)    全局 print 设置  
+get\_printoptions\(\)    返回当前的 print 设置.  
+set\_string\_function\(f\[, repr\]\)    为数据设置默认的str()的函数.即用一个python函数重载__str__ method
 
 ### Base-n representations
 
