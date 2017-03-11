@@ -18,8 +18,8 @@ ndarray.tolist\(\)    Return the array as a \(possibly nested\) list.
 
 ### Raw binary files
 
-fromfile\(file\[, dtype, count, sep\]\)    Construct an array from data in a text or binary file.  
-ndarray.tofile\(fid\[, sep, format\]\)    Write array to a file as text or binary \(default\).
+fromfile\(file\[, dtype, count, sep\]\)   读取（txt 或 binary）文件，返回数据块.  
+ndarray.tofile\(fid\[, sep, format\]\)    将数据块保存到文件fid.
 
 ### String formatting
 
