@@ -4,9 +4,9 @@ c\_  沿着第二个轴连接数据块，np.c\[arr1, arr2, ...\]
 r\_  沿着第一个轴连接数据块。  
 s\_  为数据构造更好的 index 元组。  
 `>>> np.array([0, 1, 2, 3, 4])[np.s_[2::2]]  # array([2, 4])`  
-nonzero\( a \)  
-where\( condition \[, x, y\] \)  
-indices\(dimensions\[, dtype\]\)  
+nonzero\( a \) 返回非0元素的indices坐标  
+where\( condition \[, x, y\] \) 根据条件返回 x, y 数据块里的元素  
+indices\(dimensions\[, dtype\]\)   
 ix\_\(\*args\)  
 ogrid  
 ravel\_multi\_index\(multi\_index, dims\[, mode, ...\]\)  
