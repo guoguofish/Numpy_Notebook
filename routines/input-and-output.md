@@ -13,7 +13,7 @@ savetxt\(fname, X\[, fmt, delimiter, newline, ...\]\)    将数据X保存到 .tx
 genfromtxt\(fname, ...\)    分析外部text文件生成数据, 可特殊处理缺失的值. 许多可选参数是用来分析文件的.  
 fromregex\(file, regexp, dtype\)    从一个text文件构建一块结构化数据，使用正则表达式分析，正则表达式的分组会转化为结构化数据里的field字段  
 fromstring\(string\[, dtype, count, sep\]\)    将字符串转换成1-D的数据串。  
-ndarray.tofile\(fid\[, sep, format\]\)    将数据写入文件.   
+ndarray.tofile\(fid\[, sep, format\]\)    将数据写入文件.  
 ndarray.tolist\(\)    将数据块转换成 python list列表.
 
 ### Raw binary files
@@ -29,7 +29,9 @@ array\_str\(a\[, max\_line\_width, precision, ...\]\)          返回数据字�
 
 ### Memory mapping files
 
-memmap 类    可从外部一个较大的数据文件载入一小段数据,生成一个memmap对象，它的行为像ndarray,不同于Python的mmap模块，mmap的行为更像是文件.
+memmap 类    可从外部一个较大的数据文件载入一小段数据,生成一个memmap对象，它的行为像ndarray,
+
+              不同于Python的mmap模块，mmap的行为更像是文件.  
              所有可以接受ndarray的函数都可以接受memmap对象.
 
 ### Text formatting options
