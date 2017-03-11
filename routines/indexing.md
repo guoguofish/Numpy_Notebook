@@ -1,7 +1,7 @@
 ### 生成index数组
 
 c\_  沿着第二个轴连接数据块，np.c_\[arr1, arr2, ...\]  
-r\_  沿着第一个轴连接数据块。  
+r\__  沿着第一个轴连接数据块。  
 s\_  
 nonzero\( a \)  
 where\( condition \[, x, y\] \)  
