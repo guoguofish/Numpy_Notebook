@@ -12,7 +12,7 @@ loadtxt\(fname\[, dtype, comments, delimiter, ...\]\)    从text文件读取数�
 savetxt\(fname, X\[, fmt, delimiter, newline, ...\]\)    将数据X保存到 .txt 文件里
 genfromtxt\(fname, ...\)    分析外部text文件生成数据, 可特殊处理缺失的值. 许多可选参数是用来分析文件的.  
 fromregex\(file, regexp, dtype\)    从一个text文件构建一块结构化数据，使用正则表达式分析，正则表达式的分组会转化为结构化数据里的field字段
-fromstring\(string\[, dtype, count, sep\]\)    A new 1-D array initialized from raw binary or text data in a string.  
+fromstring\(string\[, dtype, count, sep\]\)    将字符串转换成1-D的数据串。  
 ndarray.tofile\(fid\[, sep, format\]\)    Write array to a file as text or binary \(default\).  
 ndarray.tolist\(\)    Return the array as a \(possibly nested\) list.
 
