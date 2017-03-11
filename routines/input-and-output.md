@@ -1,4 +1,4 @@
-### NumPy binary files \(NPY, NPZ\)，支持pickle化
+### NumPy 二进制文件 \(NPY, NPZ\)，支持pickle化
 
 load\(file\[, mmap\_mode, allow\_pickle, ...\]\)   从npy或npz文件里载入数据或者 pickled 的对象  
 save\(file, arr\[, allow\_pickle, fix\_imports\]\)   将一块数据 arr 保存到硬盘二进制文件 file.npy.  
