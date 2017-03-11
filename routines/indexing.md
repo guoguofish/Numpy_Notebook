@@ -2,7 +2,7 @@
 
 c\_  沿着第二个轴连接数据块，np.c\[arr1, arr2, ...\]  
 r\_  沿着第一个轴连接数据块。  
-s\_  
+s\_  为数据构造更好的 index 元组。例如 ndarray[np.s_[2::2]]
 nonzero\( a \)  
 where\( condition \[, x, y\] \)  
 indices\(dimensions\[, dtype\]\)  
