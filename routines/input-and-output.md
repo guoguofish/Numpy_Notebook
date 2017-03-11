@@ -8,8 +8,8 @@ savez\_compressed\(file, \_args, \*\*kwds\)    把几个数组保存到一个压
 
 ### Text files
 
-loadtxt\(fname\[, dtype, comments, delimiter, ...\]\)    Load data from a text file.  
-savetxt\(fname, X\[, fmt, delimiter, newline, ...\]\)    Save an array to a text file.  
+loadtxt\(fname\[, dtype, comments, delimiter, ...\]\)    从text文件读取数据
+savetxt\(fname, X\[, fmt, delimiter, newline, ...\]\)    将数据X保存到 .txt 文件里
 genfromtxt\(fname\[, dtype, comments, ...\]\)    Load data from a text file, with missing values handled as specified.  
 fromregex\(file, regexp, dtype\)    Construct an array from a text file, using regular expression parsing.  
 fromstring\(string\[, dtype, count, sep\]\)    A new 1-D array initialized from raw binary or text data in a string.  
