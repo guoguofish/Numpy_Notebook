@@ -6,7 +6,7 @@ rand\(d0, d1, ..., dn\)    根据shape参数产生随机值。下图是一个200
 randn\(d0, d1, ..., dn\)    根据shape参数产生随机值.下图是一个2000个2D随机点的例子，可见随机值的分布符合正态分布。
 
 ![](/assets/np_random_randn.png)  
-randint\(low\[, high, size, dtype\]\)    Return random integers from low \(inclusive\) to high \(exclusive\).  
+randint\(low\[, high, size, dtype\]\)    从low到high生成随机整数，size相当于shape参数  
 random\_integers\(low\[, high, size\]\)    Random integers of type np.int between low and high, inclusive.  
 random\_sample\(\[size\]\)    Return random floats in the half-open interval \[0.0, 1.0\).  
 random\(\[size\]\)    Return random floats in the half-open interval \[0.0, 1.0\).  
