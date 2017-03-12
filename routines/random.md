@@ -10,7 +10,7 @@ randint\(low\[, high, size, dtype\]\)    从low到high生成随机整数，size�
 random\_integers\(low\[, high, size\]\)   废弃。使用上者。  
 random\_sample\(\[size\]\)    产生 \[0.0, 1.0\).之间随机小数，分布像rand，size相当于shape元组参数  
 random\(\[size\]\)    同random\_sample  
-ranf\(\[size\]\)    同random\_sample  
+ranf\(\[size\]\)      同random\_sample  
 sample\(\[size\]\)    Return random floats in the half-open interval \[0.0, 1.0\).  
 choice\(a\[, size, replace, p\]\)    Generates a random sample from a given 1-D array  
 bytes\(length\)    Return random bytes.
