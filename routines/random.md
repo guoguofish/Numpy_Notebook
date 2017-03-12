@@ -11,10 +11,10 @@ random\_integers\(low\[, high, size\]\)   废弃。使用上者。
 random\_sample\(\[size\]\)    产生 \[0.0, 1.0\).之间随机小数，分布像rand，size相当于shape元组参数  
 random\(\[size\]\)    同random\_sample  
 ranf\(\[size\]\)      同random\_sample  
-sample\(\[size\]\)    同random\_sample 
-choice\(a\[, size, replace, p\]\)    输入a可以是 1-D的数据串，或者是一个整数n，代表arange(n)
-       size代表在a里选择了几次数据，参数p代表被选中的概率，p.shape=a.shape, p里的元素对应a里相应元素的选中概率.
-       返回的数据串也是1-D
+sample\(\[size\]\)    同random\_sample   
+choice\(a\[, size, replace, p\]\)    输入a可以是 1-D的数据串，或者是一个整数n，代表arange\(n\)  
+       size代表在a里选择了几次数据.   p.shape=a.shape, p里的元素对应a里相应元素的选中概率.  
+       返回的数据串也是1-D  
 bytes\(length\)    Return random bytes.
 
 ## Permutations随机排列
