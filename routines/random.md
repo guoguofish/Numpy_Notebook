@@ -8,7 +8,7 @@ randn\(d0, d1, ..., dn\)    根据shape参数产生随机值.下图是一个2000
 ![](/assets/np_random_randn.png)  
 randint\(low\[, high, size, dtype\]\)    从low到high生成随机整数，size相当于shape参数  
 random\_integers\(low\[, high, size\]\)   废弃。使用上者。  
-random\_sample\(\[size\]\)    产生 \[0.0, 1.0\).之间随机小数，分布和rand一样，size相当于shape元组参数  
+random\_sample\(\[size\]\)    产生 \[0.0, 1.0\).之间随机小数，分布像rand，size相当于shape元组参数  
 random\(\[size\]\)    Return random floats in the half-open interval \[0.0, 1.0\).  
 ranf\(\[size\]\)    Return random floats in the half-open interval \[0.0, 1.0\).  
 sample\(\[size\]\)    Return random floats in the half-open interval \[0.0, 1.0\).  
