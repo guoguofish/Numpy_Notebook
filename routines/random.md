@@ -15,7 +15,7 @@ sample\(\[size\]\)    同random\_sample
 choice\(a\[, size, replace, p\]\)    输入a可以是 1-D的数据串，或者是一个整数n，代表arange\(n\)  
        size代表在a里选择了几次数据.   p.shape=a.shape, p里的元素对应a里相应元素的选中概率.  
        返回的数据也是1-D  
-bytes\(length\)    Return random bytes.
+bytes\(length\)    返回length个字节.内容是随机的，也可以认为是乱码。
 
 ## Permutations随机排列
 
