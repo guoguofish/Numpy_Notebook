@@ -1,6 +1,8 @@
 ## Simple random data
 
-rand\(d0, d1, ..., dn\)    Random values in a given shape.  
+rand\(d0, d1, ..., dn\)    根据shape参数产生随机值。下图是一个2000个2D随机点的例子，随机值分布在0-1之间.
+
+![](/assets/np_random_rand.png)  
 randn\(d0, d1, ..., dn\)    Return a sample \(or samples\) from the “standard normal” distribution.  
 randint\(low\[, high, size, dtype\]\)    Return random integers from low \(inclusive\) to high \(exclusive\).  
 random\_integers\(low\[, high, size\]\)    Random integers of type np.int between low and high, inclusive.  
