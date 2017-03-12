@@ -3,7 +3,9 @@
 rand\(d0, d1, ..., dn\)    根据shape参数产生随机值。下图是一个2000个2D随机点的例子，随机值分布在0-1之间.
 
 ![](/assets/np_random_rand.png)  
-randn\(d0, d1, ..., dn\)    Return a sample \(or samples\) from the “standard normal” distribution.  
+randn\(d0, d1, ..., dn\)    根据shape参数产生随机值.下图是一个2000个2D随机点的例子，可见随机值的分布符合正态分布。
+
+![](/assets/np_random_randn.png)  
 randint\(low\[, high, size, dtype\]\)    Return random integers from low \(inclusive\) to high \(exclusive\).  
 random\_integers\(low\[, high, size\]\)    Random integers of type np.int between low and high, inclusive.  
 random\_sample\(\[size\]\)    Return random floats in the half-open interval \[0.0, 1.0\).  
