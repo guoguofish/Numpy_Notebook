@@ -2,10 +2,10 @@
 
 rand\(d0, d1, ..., dn\)    根据shape参数产生随机值。下图是一个2000个2D随机点的例子，随机值分布在0-1之间.
 
-![rand(shape参数)](/assets/np_random_rand.png)  
+![rand\(shape参数\)](/assets/np_random_rand.png)  
 randn\(d0, d1, ..., dn\)    根据shape参数产生随机值.下图是一个2000个2D随机点的例子，可见随机值的分布符合正态分布。
 
-![randn(shape参数)](/assets/np_random_randn.png)  
+![randn\(shape参数\)](/assets/np_random_randn.png)  
 randint\(low\[, high, size, dtype\]\)    从low到high生成随机整数，size相当于shape参数  
 random\_integers\(low\[, high, size\]\)   废弃。使用上者。  
 random\_sample\(\[size\]\)    产生 \[0.0, 1.0\).之间随机小数，分布像rand，size相当于shape元组参数  
@@ -24,9 +24,9 @@ permutation\(x\)    随即打乱一个序列数据, 或返回一个打乱的范�
 
 ## Distributions 分布
 
-beta\(a, b\[, size\]\)    Beta 分布样本，在 [0, 1]内.  
+beta\(a, b\[, size\]\)    Beta 分布样本，在 \[0, 1\]内.  
 binomial\(n, p\[, size\]\)    二项分布.  
-chisquare\(df\[, size\]\)    卡方分布 chi-square .  
+chisquare\(df\[, size\]\)    卡方分布 .  
 dirichlet\(alpha\[, size\]\)    狄利克雷分布.  
 exponential\(\[scale, size\]\)    指数分布.  
 f\(dfnum, dfden\[, size\]\)    F分布.  
@@ -43,7 +43,7 @@ multivariate\_normal\(mean, cov\[, size\]\)    多元正态分布
 negative\_binomial\(n, p\[, size\]\)    负二项分布.  
 noncentral\_chisquare\(df, nonc\[, size\]\)    非中心卡方分布.  
 noncentral\_f\(dfnum, dfden, nonc\[, size\]\)    非中心F分布.  
-normal\(\[loc, scale, size\]\)   正态(高斯)分布 
+normal\(\[loc, scale, size\]\)   正态\(高斯\)分布   
 pareto\(a\[, size\]\)    帕累托（Lomax）分布.  
 poisson\(\[lam, size\]\)    泊松分布.  
 power\(a\[, size\]\)    Draws samples in \[0, 1\] from a power distribution with positive exponent a - 1.  
@@ -51,7 +51,7 @@ rayleigh\(\[scale, size\]\)    Draw samples from a Rayleigh distribution.
 standard\_cauchy\(\[size\]\)    标准柯西分布 with mode = 0.  
 standard\_exponential\(\[size\]\)    标准的指数分布.  
 standard\_gamma\(shape\[, size\]\)    标准伽马分布.  
-standard\_normal\(\[size\]\)   标准正态分布 (mean=0, stdev=1).
+standard\_normal\(\[size\]\)   标准正态分布 \(mean=0, stdev=1\).  
 standard\_t\(df\[, size\]\)    Draw samples from a standard Student’s t distribution with df degrees of freedom.  
 triangular\(left, mode, right\[, size\]\)    三角分布 over the interval \[left, right\].  
 uniform\(\[low, high, size\]\)    均匀分布.  
