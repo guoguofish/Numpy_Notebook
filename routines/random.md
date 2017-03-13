@@ -2,10 +2,10 @@
 
 rand\(d0, d1, ..., dn\)    根据shape参数产生随机值。下图是一个2000个2D随机点的例子，随机值分布在0-1之间.
 
-![](/assets/np_random_rand.png)  
+![rand(shape参数)](/assets/np_random_rand.png)  
 randn\(d0, d1, ..., dn\)    根据shape参数产生随机值.下图是一个2000个2D随机点的例子，可见随机值的分布符合正态分布。
 
-![](/assets/np_random_randn.png)  
+![randn(shape参数)](/assets/np_random_randn.png)  
 randint\(low\[, high, size, dtype\]\)    从low到high生成随机整数，size相当于shape参数  
 random\_integers\(low\[, high, size\]\)   废弃。使用上者。  
 random\_sample\(\[size\]\)    产生 \[0.0, 1.0\).之间随机小数，分布像rand，size相当于shape元组参数  
