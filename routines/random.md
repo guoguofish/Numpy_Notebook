@@ -32,7 +32,9 @@ exponential\(\[scale, size\]\)    指数分布.
 f\(dfnum, dfden\[, size\]\)    F分布.  
 gamma\(shape\[, scale, size\]\)    伽马分布.  
 geometric\(p\[, size\]\)    几何分布.  
-gumbel\(\[loc, scale, size\]\)    耿贝尔分布  
+gumbel\(\[loc, scale, size\]\)    耿贝尔分布
+
+![](/assets/np_random_gumbel.png)  
 hypergeometric\(ngood, nbad, nsample\[, size\]\)   超几何分布.  
 laplace\(\[loc, scale, size\]\)    拉普拉斯或双指数分布 with specified location \(or mean\) and scale \(decay\).  
 logistic\(\[loc, scale, size\]\)    Logistic分布 .  
@@ -43,7 +45,7 @@ multivariate\_normal\(mean, cov\[, size\]\)    多元正态分布
 negative\_binomial\(n, p\[, size\]\)    负二项分布.  
 noncentral\_chisquare\(df, nonc\[, size\]\)    非中心卡方分布.  
 noncentral\_f\(dfnum, dfden, nonc\[, size\]\)    非中心F分布.  
-normal\(\[loc, scale, size\]\)   正态\(高斯\)分布   
+normal\(\[loc, scale, size\]\)   正态\(高斯\)分布  
 pareto\(a\[, size\]\)    帕累托（Lomax）分布.  
 poisson\(\[lam, size\]\)    泊松分布.  
 power\(a\[, size\]\)    Draws samples in \[0, 1\] from a power distribution with positive exponent a - 1.  
