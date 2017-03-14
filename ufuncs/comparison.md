@@ -20,11 +20,11 @@ logical\_xor\(x, y \[,out\]\)
 
 logical\_not\(x \[,out\]\)
 
-maximum\(x, y \[,out\]\)  在 x y 里找出较大的元素，构成数据块返回
+maximum\(x, y \[,out\]\)  在 x y 里找出较大的对应元素，构成数据块返回
 
-minimum\(x, y \[,out\]\)   在 x y 里找出较小的元素，构成数据块返回
+minimum\(x, y \[,out\]\)   在 x y 里找出较小的对应元素，构成数据块返回
 
-fmax\( x, y \[,out\]\) 
+fmax\( x, y \[,out\]\)
 
 fmin\( x, y \[,out\] \)
 
