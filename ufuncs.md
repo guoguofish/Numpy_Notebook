@@ -19,10 +19,11 @@ out的shape要和计算结果匹配。加入out参数的好处是可以减少大
  add(G, C, G)
 ```
 
-在Python 里，任何函数都是对象，是对象就可以有属性，ufunc也不例外，它自身都一些数据属性和method。数据属性没什么好说的，但有4个method 比较有用,
+在Python 里，任何函数都是对象，是对象就可以有属性，ufunc也不例外，它自身都一些数据属性和method。数据属性没什么好说的，但有4个method 比较有用, 然而这些method只作用在形如 ufun(x, y ,out) 这样的函数上。其他函数使用这些method会引发ValueError异常，需要处理的ndarray不能是标量
 
-| ufunc.reduce\( a \[, axis, dtype, out, keepdims\]\) | Reduces_a_‘s dimension by one, by applying ufunc along one axis. |
+| ufunc.reduce\( a \[, axis, dtype, out, keepdims\]\) | 在a数据块的某个维度上执行连续操作。例如np.multiply.reduce([2,3,5]) 相当于 2x3x5 |
 | ---------------------------------------- | ---------------------------------------- |
-| ufunc.accumulate\( array [, axis, dtype, out, ...\]\) | Accumulate the result of applying the operator to all elements. |
+| ufunc.accumulate\( array [, axis, dtype, out, ...\]\) | Accumulate the result of applying the operator to all elements.相当于保留了中间结果的连续操作. |
 | ufunc.reduceat\( a, indices [, axis, dtype, out\]\) | Performs a \(local\) reduce with specified slices over a single axis. |
 | ufunc.outer\( A, B, \*\*kwargs\)         | Apply the ufunc_op\_to all pairs \(a, b\) with a in\_A\_and b in\_B_. |
+
