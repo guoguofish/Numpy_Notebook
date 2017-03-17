@@ -27,5 +27,5 @@ out的shape要和计算结果匹配。加入out参数的好处是可以减少大
 | ufunc.reduceat\( a, indices \[, axis, dtype, out\]\) | 沿着某个轴根据slice在局部小范围执行连续执行算法 |
 | ufunc.outer\( A, B, \*\*kwargs\) | 在A和B的数据块里每两对元素之间都要执行算法 |
 
-
+![](/assets/ufunc_method.png)
 
