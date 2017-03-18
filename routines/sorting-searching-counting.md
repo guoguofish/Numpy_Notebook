@@ -15,7 +15,7 @@ argmax\(a\[, axis, out\]\)    返回的是数据块里的最大值的index.如�
 
 ```
 a = np.arange(6).reshape(2,3)
-np.argmax(a)        # 返回 5
+np.argmax(a)         # 返回 5
 np.argmax(a, axis=0) # 返回 [1,1,1]
 np.argmax(a, axis=1) # 返回 [2,2]
 np.argmax(np.array([0,5,1,2,3,4,5]))  #有两个最大值， 返回 1
