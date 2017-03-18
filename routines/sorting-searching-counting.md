@@ -12,7 +12,13 @@ argpartition(a, kth[, axis, kind, order])	Perform an indirect partition along th
 ## Searching
 
 argmax(a[, axis, out])	返回的是数据块里的最大值的index.如果没有给出axis轴向参数，那么a就被扁平化成1D,然后再返回最大值index.如果给出axis值，那么返回的就是在那个轴向上的最大值的index.
-`>>> a = np.arange(6).reshape(2,3)`
+
+a = np.arange(6).reshape(2,3)
+np.argmax(a)             # 返回 5
+np.argmax(a, axis=0) # 返回 [1,1,1]
+np.argmax(a, axis=1) # 返回 [2,2]
+np.argmax(np.array([0,5,1,2,3,4,5]))  #有两个最大值， 返回 1
+
 nanargmax(a[, axis])	Return the indices of the maximum values in the specified axis ignoring NaNs.
 argmin(a[, axis, out])	Returns the indices of the minimum values along an axis.
 nanargmin(a[, axis])	Return the indices of the minimum values in the specified axis ignoring NaNs.
