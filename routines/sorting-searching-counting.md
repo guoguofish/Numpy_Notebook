@@ -22,7 +22,7 @@ np.argmax(np.array([0,5,1,2,3,4,5]))  #有两个最大值， 只返回 1
 ```
 
 nanargmax\(a\[, axis\]\)    Return the indices of the maximum values in the specified axis ignoring NaNs.  
-argmin\(a\[, axis, out\]\)    返回的是数据块里的最大值的index。  
+argmin\(a\[, axis, out\]\)    返回的是数据块里的最小值的index。  
 nanargmin\(a\[, axis\]\)    Return the indices of the minimum values in the specified axis ignoring NaNs.  
 argwhere\(a\)    Find the indices of array elements that are non-zero, grouped by element.  
 nonzero\(a\)    Return the indices of the elements that are non-zero.  
