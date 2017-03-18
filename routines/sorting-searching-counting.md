@@ -20,7 +20,7 @@ a = np.array([0,1,2, 3,2,8]).reshape(2,3)
 np.argmax(a, axis=0) # 返回 [1,1,1]
 np.argmax(a, axis=1) # 返回 [2,2]
 
-np.argmax(np.array([0,5,1,2,3,4,5]))  #有两个最大值， 只返回 1
+np.argmax(np.array([0,5,1,2,3,4,5]))  #有多个最大值， 只返回先找的 1
 ```
 
 nanargmax\(a\[, axis\]\)    Return the indices of the maximum values in the specified axis ignoring NaNs.  
