@@ -9,7 +9,7 @@ ones\_like\( `a`,  dtype, order, subok \) 全1数据块
 zeros\( `shape`,  dtype, order \)   全0数据块  
 zeros\_like\( `a`,  dtype, order, subok \)  全0数据块  
 full\( `shape, fill_value`, dtype, order \) 全 fill-value 的数据块  
-fulllike\( `a, fill_value`,  dtype,  order,  subok \) 全 fill-value 的数据块
+fulllike\( `a, fill_value`,  dtype,  order,  subok \) 全 fill-value 的数据块,shape同a数据块.
 
 ### 由外部数据转换而来
 
