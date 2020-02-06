@@ -6,9 +6,9 @@ Masked 数组也具有类似的模样，当然它的数据类型不是ndarray.
 
 ```
 >>> x = np.arange(9)             # [0,1,2,3,4,5,6,7,8]
->>> mx = ma.masked_less(x,5)     # 给x戴上面具, 现在叫mx
+>>> mx = ma.masked_less(x,5)     # 给x当中小于5的数戴上面具, 现在叫 mx
 >>> y = mx.compressed()          # 把蒙面的 mx 又转变成露脸的 ndarray  [5,6,7,8],
-                                 # 不管之前mx是什么维度，现在都是1维了
+                                 # 不管之前 mx 是什么维度，现在都是1维了
 ```
 
 
